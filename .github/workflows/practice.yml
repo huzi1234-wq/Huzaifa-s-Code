@@ -32,7 +32,7 @@ jobs:
       - name: install surge
         run:  npm install -g surge
       - name: run surge
-        run: surge./ thoughtlessmydream.surge.sh --token $ {{ secrets.TOKENSURGE }} 
+        run: surge ./ thoughtlessmydream.surge.sh --token $ {{ secrets.TOKENSURGE }} 
             
             
             
